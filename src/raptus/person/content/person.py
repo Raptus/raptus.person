@@ -29,9 +29,9 @@ except:
         from Products.Archetypes.Field import ImageField
 
 
-from bbz.theme.content import interfaces
-from bbz.theme.config import PROJECTNAME
-from bbz.theme import _
+from raptus.person import interfaces
+from raptus.person.config import PROJECTNAME
+from raptus.header import headerMessageFactory as _
 
 
 PersonSchema = article.ArticleSchema.copy() + atapi.Schema((
