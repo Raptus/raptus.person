@@ -31,7 +31,7 @@ except:
 
 from raptus.person import interfaces
 from raptus.person.config import PROJECTNAME
-from raptus.header import headerMessageFactory as _
+from raptus.person import _
 
 
 PersonSchema = article.ArticleSchema.copy() + atapi.Schema((
